@@ -5,7 +5,8 @@ void delay(int count)
 {
     for (int i = 0; i < count; i++)
     {
-        __asm__("nop"); // add comment
+        __asm__("nop");
+        __asm__("nop");
     }
 }
 
